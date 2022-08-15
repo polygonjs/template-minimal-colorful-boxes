@@ -1,0 +1,350 @@
+{
+	"type": "actor",
+	"nodes": {
+		"onTick1": {
+			"type": "onTick"
+		},
+		"onObjectHover1": {
+			"type": "onObjectHover"
+		},
+		"twoWaySwitch1": {
+			"type": "twoWaySwitch",
+			"params": {
+				"condition": {
+					"type": "boolean",
+					"default_value": false,
+					"options": {
+						"spare": true,
+						"editable": false
+					}
+				},
+				"ifTrue": {
+					"type": "float",
+					"default_value": 0,
+					"options": {
+						"spare": true,
+						"editable": true
+					},
+					"raw_input": 1.4
+				},
+				"ifFalse": {
+					"type": "float",
+					"default_value": 0,
+					"options": {
+						"spare": true,
+						"editable": true
+					},
+					"raw_input": 1
+				}
+			},
+			"inputs": [
+				{
+					"index": 0,
+					"node": "onObjectHover1",
+					"output": "hovered"
+				}
+			],
+			"connection_points": {
+				"in": [
+					{
+						"name": "condition",
+						"type": "boolean",
+						"isArray": false
+					},
+					{
+						"name": "ifTrue",
+						"type": "float",
+						"isArray": false
+					},
+					{
+						"name": "ifFalse",
+						"type": "float",
+						"isArray": false
+					}
+				],
+				"out": [
+					{
+						"name": "val",
+						"type": "float",
+						"isArray": false
+					}
+				]
+			}
+		},
+		"setObjectScale1": {
+			"type": "setObjectScale",
+			"params": {
+				"scale": {
+					"overriden_options": {}
+				},
+				"mult": {
+					"overriden_options": {}
+				},
+				"lerp": {
+					"raw_input": 0.13,
+					"overriden_options": {}
+				},
+				"updateMatrix": {
+					"overriden_options": {}
+				}
+			},
+			"maxInputsCount": 6,
+			"inputs": [
+				{
+					"index": 0,
+					"node": "onTick1",
+					"output": "trigger"
+				},
+				null,
+				{
+					"index": 2,
+					"node": "floatToVec3_2",
+					"output": "vec3"
+				},
+				null,
+				{
+					"index": 4,
+					"node": "twoWaySwitch2",
+					"output": "val"
+				}
+			]
+		},
+		"floatToVec3_2": {
+			"type": "floatToVec3",
+			"params": {
+				"x": {
+					"raw_input": 1,
+					"overriden_options": {}
+				},
+				"y": {
+					"raw_input": 1,
+					"overriden_options": {}
+				},
+				"z": {
+					"raw_input": 1,
+					"overriden_options": {}
+				}
+			},
+			"inputs": [
+				null,
+				null,
+				{
+					"index": 2,
+					"node": "twoWaySwitch1",
+					"output": "val"
+				}
+			]
+		},
+		"twoWaySwitch2": {
+			"type": "twoWaySwitch",
+			"params": {
+				"condition": {
+					"type": "boolean",
+					"default_value": false,
+					"options": {
+						"spare": true,
+						"editable": false
+					}
+				},
+				"ifTrue": {
+					"type": "float",
+					"default_value": 0,
+					"options": {
+						"spare": true,
+						"editable": true
+					},
+					"raw_input": 0.36
+				},
+				"ifFalse": {
+					"type": "float",
+					"default_value": 0,
+					"options": {
+						"spare": true,
+						"editable": true
+					},
+					"raw_input": 0.03
+				}
+			},
+			"inputs": [
+				{
+					"index": 0,
+					"node": "onObjectHover1",
+					"output": "hovered"
+				}
+			],
+			"connection_points": {
+				"in": [
+					{
+						"name": "condition",
+						"type": "boolean",
+						"isArray": false
+					},
+					{
+						"name": "ifTrue",
+						"type": "float",
+						"isArray": false
+					},
+					{
+						"name": "ifFalse",
+						"type": "float",
+						"isArray": false
+					}
+				],
+				"out": [
+					{
+						"name": "val",
+						"type": "float",
+						"isArray": false
+					}
+				]
+			}
+		},
+		"twoWaySwitch3": {
+			"type": "twoWaySwitch",
+			"params": {
+				"condition": {
+					"type": "boolean",
+					"default_value": false,
+					"options": {
+						"spare": true,
+						"editable": false
+					}
+				},
+				"ifTrue": {
+					"type": "float",
+					"default_value": 0,
+					"options": {
+						"spare": true,
+						"editable": true
+					},
+					"raw_input": 6.2
+				},
+				"ifFalse": {
+					"type": "float",
+					"default_value": 0,
+					"options": {
+						"spare": true,
+						"editable": true
+					},
+					"raw_input": 1
+				}
+			},
+			"inputs": [
+				{
+					"index": 0,
+					"node": "onObjectHover1",
+					"output": "hovered"
+				}
+			],
+			"connection_points": {
+				"in": [
+					{
+						"name": "condition",
+						"type": "boolean",
+						"isArray": false
+					},
+					{
+						"name": "ifTrue",
+						"type": "float",
+						"isArray": false
+					},
+					{
+						"name": "ifFalse",
+						"type": "float",
+						"isArray": false
+					}
+				],
+				"out": [
+					{
+						"name": "val",
+						"type": "float",
+						"isArray": false
+					}
+				]
+			}
+		},
+		"setObjectMaterialColor1": {
+			"type": "setObjectMaterialColor",
+			"params": {
+				"color": {
+					"overriden_options": {}
+				},
+				"lerp": {
+					"raw_input": 0.22,
+					"overriden_options": {}
+				}
+			},
+			"maxInputsCount": 4,
+			"inputs": [
+				{
+					"index": 0,
+					"node": "onTick1",
+					"output": "trigger"
+				},
+				null,
+				{
+					"index": 2,
+					"node": "vec3ToColor1",
+					"output": "Color"
+				},
+				{
+					"index": 3,
+					"node": "twoWaySwitch2",
+					"output": "val"
+				}
+			]
+		},
+		"vec3ToColor1": {
+			"type": "vec3ToColor",
+			"params": {
+				"vec3": {
+					"overriden_options": {}
+				}
+			},
+			"inputs": [
+				{
+					"index": 0,
+					"node": "floatToVec3_1",
+					"output": "vec3"
+				}
+			]
+		},
+		"floatToVec3_1": {
+			"type": "floatToVec3",
+			"params": {
+				"x": {
+					"overriden_options": {}
+				},
+				"y": {
+					"overriden_options": {}
+				},
+				"z": {
+					"overriden_options": {}
+				}
+			},
+			"inputs": [
+				{
+					"index": 0,
+					"node": "twoWaySwitch3",
+					"output": "val"
+				},
+				{
+					"index": 1,
+					"node": "twoWaySwitch3",
+					"output": "val"
+				},
+				{
+					"index": 2,
+					"node": "twoWaySwitch3",
+					"output": "val"
+				}
+			]
+		}
+	},
+	"inputs": [
+		"material1"
+	],
+	"flags": {
+		"display": true
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"properties": "1660603946702",
+	"root": "1660603946702",
+	"nodes": {
+		"cameras": "1660603946702",
+		"cameras/cameraControls1": "1660603946702",
+		"lights": "1660603946702",
+		"boxes": "1660603946702",
+		"boxes/actor1": "1660603946702",
+		"boxes/MAT": "1660603946702",
+		"boxes/MAT/meshStandardBuilder1": "1660603946702"
+	}
+}

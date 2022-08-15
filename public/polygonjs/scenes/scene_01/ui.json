@@ -1,0 +1,252 @@
+{
+	"nodes": {
+		"cameras": {
+			"pos": [
+				-50,
+				50
+			],
+			"nodes": {
+				"perspectiveCamera_MAIN": {
+					"pos": [
+						-150,
+						-300
+					]
+				},
+				"perspectiveCamera_DEBUG": {
+					"pos": [
+						-550,
+						-200
+					]
+				},
+				"merge1": {
+					"pos": [
+						-350,
+						200
+					]
+				},
+				"polarTransform1": {
+					"pos": [
+						-150,
+						-150
+					]
+				},
+				"cameraControls1": {
+					"pos": [
+						-550,
+						-50
+					],
+					"nodes": {
+						"cameraOrbitControls1": {
+							"pos": [
+								0,
+								0
+							]
+						}
+					}
+				}
+			}
+		},
+		"lights": {
+			"pos": [
+				-50,
+				150
+			],
+			"nodes": {
+				"hemisphereLight1": {
+					"pos": [
+						0,
+						0
+					]
+				},
+				"areaLight1": {
+					"pos": [
+						-300,
+						0
+					]
+				},
+				"polarTransform1": {
+					"pos": [
+						-300,
+						200
+					]
+				},
+				"merge1": {
+					"pos": [
+						-150,
+						400
+					]
+				}
+			}
+		},
+		"boxes": {
+			"pos": [
+				-50,
+				-50
+			],
+			"nodes": {
+				"box1": {
+					"pos": [
+						-650,
+						300
+					]
+				},
+				"plane1": {
+					"pos": [
+						-300,
+						200
+					]
+				},
+				"copy1": {
+					"pos": [
+						-450,
+						600
+					]
+				},
+				"palette1": {
+					"pos": [
+						-300,
+						300
+					]
+				},
+				"attribRename1": {
+					"pos": [
+						-300,
+						400
+					]
+				},
+				"material1": {
+					"pos": [
+						-450,
+						950
+					]
+				},
+				"attribPromote1": {
+					"pos": [
+						-450,
+						850
+					]
+				},
+				"actor1": {
+					"pos": [
+						-450,
+						1100
+					],
+					"nodes": {
+						"onTick1": {
+							"pos": [
+								500,
+								200
+							]
+						},
+						"onObjectHover1": {
+							"pos": [
+								-100,
+								350
+							]
+						},
+						"twoWaySwitch1": {
+							"pos": [
+								200,
+								350
+							]
+						},
+						"setObjectScale1": {
+							"pos": [
+								800,
+								300
+							]
+						},
+						"floatToVec3_2": {
+							"pos": [
+								350,
+								350
+							]
+						},
+						"twoWaySwitch2": {
+							"pos": [
+								350,
+								550
+							]
+						},
+						"twoWaySwitch3": {
+							"pos": [
+								350,
+								700
+							]
+						},
+						"setObjectMaterialColor1": {
+							"pos": [
+								800,
+								650
+							]
+						},
+						"vec3ToColor1": {
+							"pos": [
+								600,
+								700
+							]
+						},
+						"floatToVec3_1": {
+							"pos": [
+								500,
+								700
+							]
+						}
+					}
+				},
+				"MAT": {
+					"pos": [
+						-650,
+						900
+					],
+					"nodes": {
+						"meshStandard1": {
+							"pos": [
+								0,
+								100
+							]
+						},
+						"meshStandardBuilder1": {
+							"pos": [
+								0,
+								200
+							],
+							"nodes": {
+								"globals1": {
+									"pos": [
+										-200,
+										0
+									]
+								},
+								"output1": {
+									"pos": [
+										200,
+										0
+									]
+								},
+								"attribute1": {
+									"pos": [
+										-100,
+										-100
+									]
+								},
+								"param1": {
+									"pos": [
+										-50,
+										250
+									]
+								},
+								"multScalar1": {
+									"pos": [
+										100,
+										50
+									]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

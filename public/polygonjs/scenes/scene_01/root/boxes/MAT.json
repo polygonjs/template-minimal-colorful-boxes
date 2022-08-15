@@ -1,0 +1,14 @@
+{
+	"type": "materialsNetwork",
+	"nodes": {
+		"meshStandard1": {
+			"type": "meshStandard",
+			"params": {
+				"useVertexColors": 1
+			}
+		}
+	},
+	"selection": [
+		"meshStandard1"
+	]
+}
