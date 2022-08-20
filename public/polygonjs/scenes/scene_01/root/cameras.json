@@ -29,7 +29,7 @@
 			"params": {
 				"longitude": 45,
 				"latitude": 25.2,
-				"depth": 10.7
+				"depth": 19.5
 			},
 			"inputs": [
 				"perspectiveCamera_MAIN"
