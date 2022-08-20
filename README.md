@@ -1,4 +1,4 @@
-# template-minimal-digital-ink
+# template-minimal-colorful-boxes
 
 This project was created using:
 
