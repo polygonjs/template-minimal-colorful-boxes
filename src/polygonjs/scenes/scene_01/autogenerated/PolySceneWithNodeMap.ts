@@ -373,6 +373,7 @@ export interface PolySceneProps_scene_01 {
   "boxes-copy1--scale"?: ParamValueSerializedTypeMap["float"];
   "boxes-copy1--transformOnly"?: ParamValueSerializedTypeMap["boolean"];
   "boxes-copy1--transformMode"?: ParamValueSerializedTypeMap["integer"];
+  "boxes-copy1--objectTransformSpace"?: ParamValueSerializedTypeMap["integer"];
   "boxes-copy1--copyAttributes"?: ParamValueSerializedTypeMap["boolean"];
   "boxes-copy1--attributesToCopy"?: ParamValueSerializedTypeMap["string"];
   "boxes-copy1--useCopyExpr"?: ParamValueSerializedTypeMap["boolean"];
@@ -630,5 +631,9 @@ export interface PolySceneProps_scene_01 {
   "boxes-MAT-meshStandardBuilder1--useFog"?: ParamValueSerializedTypeMap["boolean"];
   "boxes-MAT-meshStandardBuilder1--shadowPCSS"?: ParamValueSerializedTypeMap["boolean"];
   "boxes-MAT-meshStandardBuilder1--shadowPCSSFilterSize"?: ParamValueSerializedTypeMap["float"];
+  "boxes-MAT-meshStandardBuilder1--overrideCustomMaterials"?: ParamValueSerializedTypeMap["boolean"];
+  "boxes-MAT-meshStandardBuilder1--createCustomMatDistance"?: ParamValueSerializedTypeMap["boolean"];
+  "boxes-MAT-meshStandardBuilder1--createCustomMatDepth"?: ParamValueSerializedTypeMap["boolean"];
+  "boxes-MAT-meshStandardBuilder1--createCustomMatDepthDOF"?: ParamValueSerializedTypeMap["boolean"];
   "boxes-MAT-meshStandardBuilder1--colorMult"?: ParamValueSerializedTypeMap["float"];
 }

@@ -10,10 +10,7 @@
 		"plane1": {
 			"type": "plane",
 			"params": {
-				"size": [
-					4,
-					4
-				]
+				"size": [4, 4]
 			}
 		},
 		"copy1": {
@@ -22,45 +19,20 @@
 				"copyAttributes": 1,
 				"attributesToCopy": "color"
 			},
-			"inputs": [
-				"box1",
-				"palette1"
-			]
+			"inputs": ["box1", "palette1"]
 		},
 		"palette1": {
 			"type": "palette",
 			"params": {
 				"paletteName": "byrnes",
 				"colorsCount": 3,
-				"color1": [
-					0.7725490196078432,
-					0.27058823529411763,
-					0.0784313725490196
-				],
-				"color2": [
-					0.8627450980392157,
-					0.6352941176470588,
-					0.08235294117647059
-				],
-				"color3": [
-					0.13725490196078433,
-					0.3137254901960784,
-					0.4980392156862745
-				],
-				"color4": [
-					0.49411764705882355,
-					0.49019607843137253,
-					0.0784313725490196
-				],
-				"color5": [
-					0.8588235294117647,
-					0.8549019607843137,
-					0.788235294117647
-				]
+				"color1": [0.7725490196078432, 0.27058823529411763, 0.0784313725490196],
+				"color2": [0.8627450980392157, 0.6352941176470588, 0.08235294117647059],
+				"color3": [0.13725490196078433, 0.3137254901960784, 0.4980392156862745],
+				"color4": [0.49411764705882355, 0.49019607843137253, 0.0784313725490196],
+				"color5": [0.8588235294117647, 0.8549019607843137, 0.788235294117647]
 			},
-			"inputs": [
-				"plane1"
-			]
+			"inputs": ["plane1"]
 		},
 		"attribRename1": {
 			"type": "attribRename",
@@ -68,9 +40,7 @@
 				"oldName": "color",
 				"newName": "basecolor"
 			},
-			"inputs": [
-				"palette1"
-			]
+			"inputs": ["palette1"]
 		},
 		"material1": {
 			"type": "material",
@@ -79,9 +49,7 @@
 				"cloneMat": 1,
 				"shareCustomUniforms": 0
 			},
-			"inputs": [
-				"attribPromote1"
-			]
+			"inputs": ["attribPromote1"]
 		},
 		"attribPromote1": {
 			"type": "attribPromote",
@@ -90,9 +58,7 @@
 				"classTo": 0,
 				"name": "color"
 			},
-			"inputs": [
-				"copy1"
-			]
+			"inputs": ["copy1"]
 		}
 	},
 	"flags": {

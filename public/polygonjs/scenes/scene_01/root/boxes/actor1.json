@@ -341,9 +341,7 @@
 			]
 		}
 	},
-	"inputs": [
-		"material1"
-	],
+	"inputs": ["material1"],
 	"flags": {
 		"display": true
 	}

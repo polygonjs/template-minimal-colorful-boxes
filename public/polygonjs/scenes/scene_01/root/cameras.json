@@ -7,19 +7,12 @@
 		"perspectiveCamera_DEBUG": {
 			"type": "perspectiveCamera",
 			"params": {
-				"position": [
-					0,
-					0,
-					5
-				]
+				"position": [0, 0, 5]
 			}
 		},
 		"merge1": {
 			"type": "merge",
-			"inputs": [
-				"cameraControls1",
-				"polarTransform1"
-			],
+			"inputs": ["cameraControls1", "polarTransform1"],
 			"flags": {
 				"display": true
 			}
@@ -31,9 +24,7 @@
 				"latitude": 25.2,
 				"depth": 19.5
 			},
-			"inputs": [
-				"perspectiveCamera_MAIN"
-			]
+			"inputs": ["perspectiveCamera_MAIN"]
 		}
 	},
 	"flags": {

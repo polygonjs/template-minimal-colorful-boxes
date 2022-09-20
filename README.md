@@ -1,7 +1,7 @@
 ![Colorful Boxes Website Template](https://github.com/polygonjs/template-minimal-colorful-boxes/blob/main/public/screenshots/screenshot1.jpg?raw=true)
 ![Screenshot from Polygonjs](https://github.com/polygonjs/template-minimal-colorful-boxes/blob/main/public/screenshots/screenshot2.jpg?raw=true)
 
-[Live Demo](https://market.polygonjs.com/gui/templates/colorful-boxes)
+[Create interactive 3D With Polygonjs](https://polygonjs.com) --- [View On Polygonjs Marketplace](https://market.polygonjs.com/gui/templates/colorful-boxes) --- [Live Demo](https://market.polygonjs.com/gui/templates/colorful-boxes/fullscreen)
 
 # template-minimal-colorful-boxes
 

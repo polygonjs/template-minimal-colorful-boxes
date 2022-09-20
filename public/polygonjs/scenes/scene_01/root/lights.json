@@ -21,16 +21,11 @@
 				"latitude": 36,
 				"depth": 3.9
 			},
-			"inputs": [
-				"areaLight1"
-			]
+			"inputs": ["areaLight1"]
 		},
 		"merge1": {
 			"type": "merge",
-			"inputs": [
-				"polarTransform1",
-				"hemisphereLight1"
-			],
+			"inputs": ["polarTransform1", "hemisphereLight1"],
 			"flags": {
 				"display": true
 			}
